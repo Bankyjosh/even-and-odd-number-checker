@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even & Odd Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Even & Odd Number Checker</h1>
+       
+
+        <div class="input-group">
+            <label for="inputNumber">Enter Number:</label>
+            <input type="number" id="inputNumber" min="1" placeholder="e.g., 10">
+            <button onclick="generateNumbers()">Generate Lists</button>
+        </div>
+
+        <div class="results">
+            <div class="list-container">
+                <h2>Even Numbers</h2>
+                <ul id="evenList"></ul>
+            </div>
+            <div class="list-container">
+                <h2>Odd Numbers</h2>
+                <ul id="oddList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
